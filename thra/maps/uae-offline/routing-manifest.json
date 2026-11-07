@@ -1,0 +1,141 @@
+{
+  "datasetId": "uae-osm-2026-10-23-trvg1",
+  "schemaVersion": 1,
+  "bounds": {
+    "south": 22.6316214,
+    "west": 51.4160714,
+    "north": 26.1517219,
+    "east": 56.6024458
+  },
+  "graph": {
+    "file": "routing-graph.bin",
+    "bytes": 81180488,
+    "sha256": "f167342661cb15a8bf1e7da502de723231ebb49521aca762c13dbf2648c0a33e"
+  },
+  "counts": {
+    "nodes": 589640,
+    "edges": 1278217,
+    "points": 6377100,
+    "restrictions": 10003
+  },
+  "layout": {
+    "latE7": {
+      "offset": 64,
+      "count": 589640,
+      "type": "i32"
+    },
+    "lonE7": {
+      "offset": 2358624,
+      "count": 589640,
+      "type": "i32"
+    },
+    "offsets": {
+      "offset": 4717184,
+      "count": 589641,
+      "type": "u32"
+    },
+    "targets": {
+      "offset": 7075748,
+      "count": 1278217,
+      "type": "u32"
+    },
+    "distanceM": {
+      "offset": 12188616,
+      "count": 1278217,
+      "type": "f32"
+    },
+    "seconds": {
+      "offset": 17301484,
+      "count": 1278217,
+      "type": "f32"
+    },
+    "mask": {
+      "offset": 22414352,
+      "count": 1278217,
+      "type": "u8"
+    },
+    "kind": {
+      "offset": 23692572,
+      "count": 1278217,
+      "type": "u8"
+    },
+    "geomOffsets": {
+      "offset": 24970792,
+      "count": 1278218,
+      "type": "u32"
+    },
+    "geomLatE7": {
+      "offset": 30083664,
+      "count": 6377100,
+      "type": "i32"
+    },
+    "geomLonE7": {
+      "offset": 55592064,
+      "count": 6377100,
+      "type": "i32"
+    },
+    "restrictionFrom": {
+      "offset": 81100464,
+      "count": 10003,
+      "type": "u32"
+    },
+    "restrictionTo": {
+      "offset": 81140476,
+      "count": 10003,
+      "type": "u32"
+    }
+  },
+  "generatedAt": "2026-10-24T19:52:46.781300+00:00",
+  "sourceDate": "2026-10-23T20:20:51Z",
+  "attribution": "© OpenStreetMap contributors",
+  "attributionUrl": "https://www.openstreetmap.org/copyright",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "source": {
+    "file": "gcc-states-261023.osm.pbf",
+    "url": "https://download.geofabrik.de/asia/gcc-states-261023.osm.pbf",
+    "sha256": "7624e9e360053e1dff0c39efd3e984c3b188404d86a6500f0d8ffa963685be47",
+    "bytes": 256095041,
+    "countryRelation": 307763
+  },
+  "profiles": {
+    "road": {
+      "mask": 1,
+      "description": "Mapped public motorcar roads, unpaved/ford/track excluded; dimension-restricted and conditional access conservatively excluded."
+    },
+    "fourWheelDrive": {
+      "mask": 2,
+      "description": "Mapped permitted motorcar roads and mapped tracks; track/surface data does not verify passability, terrain safety or motorhome suitability."
+    }
+  },
+  "estimates": "Seconds are static conservative class-speed estimates capped by numeric maxspeed, not live traffic, turn costs or verified travel time. Track cap15km/h.",
+  "coverage": "Exact AE OSM admin_level2 relation with islands/inner rings. Foreign or barrier crossing original segments omitted. No cross-border shortcuts or unmapped desert routing.",
+  "processingCounts": {
+    "source_highway_ways": 1878352,
+    "excluded_vehicle_dimension": 2789,
+    "excluded_access": 84363,
+    "excluded_non_motor_highway": 197355,
+    "excluded_surface_impassable": 641,
+    "excluded_construction_impassable_area": 5598,
+    "excluded_unsupported_oneway": 21,
+    "excluded_conditional": 14,
+    "restriction_unsupported_relations": 1284,
+    "restriction_non_motor_only": 17,
+    "restriction_except_motorcar": 3,
+    "restriction_excluded_way_ids": 3358,
+    "country_complete_ways": 345235,
+    "outside_country_ways": 1215485,
+    "excluded_unsupported_restriction_ways": 3322,
+    "country_partial_or_barrier_ways": 23529,
+    "excluded_foreign_or_barrier_segments": 42137,
+    "closed_ring_pieces_retained": 3802,
+    "restriction_not_in_filtered_graph": 10600
+  },
+  "excludedUnsupportedTurnRules": "Affected member ways removed for via-way, conditional, malformed and unsupported same-way turn rules.",
+  "geometry": "Full original OSM geometry retained including edge endpoints; nonjunction nodes collapsed, split at127segments or2km. Opposite edges have reversed geometry. Grade-separated crossings connect only by shared OSM nodeID.",
+  "boundary": {
+    "file": "routing-boundary.geojson",
+    "bytes": 57209,
+    "sha256": "32672451346db0ff9314b3259aeba29954bb674b99eea018b386283b56796a40"
+  }
+}

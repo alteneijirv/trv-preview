@@ -1,0 +1,14 @@
+{
+  "title": "GeoNames UAE place names",
+  "source": "https://download.geonames.org/export/dump/AE.zip",
+  "sourceDescription": "https://www.geonames.org/export/",
+  "schema": "https://download.geonames.org/export/dump/readme.txt",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Place names: GeoNames, CC BY 4.0. Adapted for TRV.",
+  "attributionArabic": "أسماء الأماكن: GeoNames، بترخيص CC BY 4.0. عُدّلت للاستخدام في TRV.",
+  "changes": "Selected 8 output fields and checked country code; converted coordinates to JSON numbers; bounded and prioritized Arabic/Latin aliases; removed control characters. All valid UAE records retained.",
+  "disclaimer": "Data provided as is, without warranty of accuracy, timeliness or completeness. Coordinates identify named features and are not verified access points or safe desert routes.",
+  "downloadedAtUtc": "2026-10-24T19:00:38.885949+00:00",
+  "recordCount": 8584
+}

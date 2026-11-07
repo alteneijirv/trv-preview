@@ -1,0 +1,340 @@
+{
+  "places": {
+    "Abu Dhabi": {
+      "latitude": 24.4539,
+      "longitude": 54.3773
+    },
+    "Dubai": {
+      "latitude": 25.2048,
+      "longitude": 55.2708
+    },
+    "Al Ain": {
+      "latitude": 24.2075,
+      "longitude": 55.7447
+    },
+    "Madinat Zayed": {
+      "latitude": 23.6527,
+      "longitude": 53.6536
+    },
+    "Liwa": {
+      "latitude": 23.13333,
+      "longitude": 53.75
+    },
+    "Sharjah": {
+      "latitude": 25.3463,
+      "longitude": 55.4209
+    },
+    "Fujairah": {
+      "latitude": 25.1288,
+      "longitude": 56.3265
+    },
+    "Ras Al Khaimah": {
+      "latitude": 25.7895,
+      "longitude": 55.9432
+    },
+    "Empty Quarter no-mapped-road probe": {
+      "latitude": 22.8,
+      "longitude": 53.3
+    }
+  },
+  "pairs": [
+    {
+      "from": "Abu Dhabi",
+      "to": "Dubai",
+      "profile": "road"
+    },
+    {
+      "from": "Abu Dhabi",
+      "to": "Madinat Zayed",
+      "profile": "road"
+    },
+    {
+      "from": "Madinat Zayed",
+      "to": "Liwa",
+      "profile": "fourWheelDrive"
+    },
+    {
+      "from": "Dubai",
+      "to": "Fujairah",
+      "profile": "road"
+    }
+  ],
+  "negativeProbe": "Empty Quarter no-mapped-road probe must never produce an invented connector. Check actual snap/network result; no fixed reachability is asserted.",
+  "restrictions": [
+    {
+      "osmRelation": 1299857,
+      "rule": "only_straight_on",
+      "viaNode": 1016076265,
+      "blockedTransitions": [
+        [
+          41154,
+          41119
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1525240,
+      "rule": "only_straight_on",
+      "viaNode": 1191055609,
+      "blockedTransitions": [
+        [
+          59647,
+          59644
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1580313,
+      "rule": "only_straight_on",
+      "viaNode": 1261655344,
+      "blockedTransitions": [
+        [
+          71114,
+          71137
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1580314,
+      "rule": "only_straight_on",
+      "viaNode": 1261655225,
+      "blockedTransitions": [
+        [
+          71116,
+          71117
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1580316,
+      "rule": "only_straight_on",
+      "viaNode": 1279505976,
+      "blockedTransitions": [
+        [
+          71124,
+          72704
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1624010,
+      "rule": "no_left_turn",
+      "viaNode": 263535139,
+      "blockedTransitions": [
+        [
+          15026,
+          14290
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1634756,
+      "rule": "only_straight_on",
+      "viaNode": 1334279126,
+      "blockedTransitions": [
+        [
+          78974,
+          78966
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1634757,
+      "rule": "only_straight_on",
+      "viaNode": 1334279123,
+      "blockedTransitions": [
+        [
+          29462,
+          78964
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1634758,
+      "rule": "only_straight_on",
+      "viaNode": 1334278836,
+      "blockedTransitions": [
+        [
+          78906,
+          78892
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1634759,
+      "rule": "only_straight_on",
+      "viaNode": 1334279112,
+      "blockedTransitions": [
+        [
+          78882,
+          78958
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1634782,
+      "rule": "only_straight_on",
+      "viaNode": 1334286437,
+      "blockedTransitions": [
+        [
+          79040,
+          79024
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1638946,
+      "rule": "only_straight_on",
+      "viaNode": 3971559575,
+      "blockedTransitions": [
+        [
+          57534,
+          336864
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1638950,
+      "rule": "only_straight_on",
+      "viaNode": 3971559575,
+      "blockedTransitions": [
+        [
+          344749,
+          336865
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1638951,
+      "rule": "only_straight_on",
+      "viaNode": 4018353934,
+      "blockedTransitions": [
+        [
+          366313,
+          339317
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1638957,
+      "rule": "only_straight_on",
+      "viaNode": 4668755399,
+      "blockedTransitions": [
+        [
+          366322,
+          366314
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1638960,
+      "rule": "only_straight_on",
+      "viaNode": 4018353934,
+      "blockedTransitions": [
+        [
+          57484,
+          339316
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1639105,
+      "rule": "only_straight_on",
+      "viaNode": 1339516923,
+      "blockedTransitions": [
+        [
+          28997,
+          80301
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1639106,
+      "rule": "only_straight_on",
+      "viaNode": 819845572,
+      "blockedTransitions": [
+        [
+          1023643,
+          28996
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1639107,
+      "rule": "only_straight_on",
+      "viaNode": 1339516923,
+      "blockedTransitions": [
+        [
+          80304,
+          80302
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1655483,
+      "rule": "only_straight_on",
+      "viaNode": 6040251812,
+      "blockedTransitions": [
+        [
+          550348,
+          550346
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1655484,
+      "rule": "only_straight_on",
+      "viaNode": 6040251812,
+      "blockedTransitions": [
+        [
+          65353,
+          550345
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1655487,
+      "rule": "only_straight_on",
+      "viaNode": 6040251814,
+      "blockedTransitions": [
+        [
+          65931,
+          550349
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1655488,
+      "rule": "no_left_turn",
+      "viaNode": 1353465500,
+      "blockedTransitions": [
+        [
+          65498,
+          81748
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1655489,
+      "rule": "no_right_turn",
+      "viaNode": 1353465500,
+      "blockedTransitions": [
+        [
+          65274,
+          81747
+        ]
+      ]
+    },
+    {
+      "osmRelation": 1662867,
+      "rule": "no_left_turn",
+      "viaNode": 1361126903,
+      "blockedTransitions": [
+        [
+          82382,
+          82380
+        ]
+      ]
+    }
+  ]
+}

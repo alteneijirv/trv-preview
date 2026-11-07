@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "builtAtUtc": "2026-10-24T19:57:32.801795+00:00",
+  "displayBounds": [
+    51.4,
+    22.5,
+    56.61,
+    26.2
+  ],
+  "boundsMeaning": "Rectangular overview coverage, not a country border or land-only mask.",
+  "layers": {
+    "satellite": {
+      "minZoom": 5,
+      "maxNativeZoom": 11,
+      "maxZoom": 19,
+      "tileSize": 256,
+      "bounds": [
+        51.4,
+        22.5,
+        56.61,
+        26.2
+      ],
+      "outputGroundResolutionM": [
+        68.58,
+        70.62
+      ],
+      "offline": true,
+      "format": "jpg",
+      "tileScheme": "xyz",
+      "missingDataColor": "#27454f",
+      "url": "/trv-preview/thra/maps/uae-offline/satellite/{z}/{x}/{y}.jpg",
+      "name": {
+        "en": "Offline satellite overview",
+        "ar": "صور أقمار صناعية محلية — نظرة عامة"
+      },
+      "description": {
+        "en": "Real Sentinel-2 RGB, about 110 m overview. Not live or street-level imagery; clouds and gaps can remain.",
+        "ar": "صور Sentinel-2 حقيقية بدقة عرض تقارب 110 أمتار. ليست بثاً حياً أو صور شوارع؛ قد تبقى سحب أو فجوات."
+      },
+      "sourcePixelM": 10,
+      "sampledPixelM": 107.2265625,
+      "captureDateStart": "2026-10-01T06:53:26.901000Z",
+      "captureDateEnd": "2026-10-24T07:03:27.361000Z",
+      "contributingSceneCount": 88,
+      "catalogCandidateCount": 324,
+      "sceneCloudFilterPercent": 5,
+      "excludedSclClasses": [
+        0,
+        1,
+        3,
+        8,
+        9,
+        10,
+        11
+      ],
+      "attribution": "Contains modified Copernicus Sentinel data 2026",
+      "attributionAr": "Contains modified Copernicus Sentinel data 2026",
+      "sourceUrl": "https://registry.opendata.aws/sentinel-2-l2a-cogs/",
+      "licenseUrl": "https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice",
+      "bytes": 5550462,
+      "tileCount": 1038
+    },
+    "terrain": {
+      "minZoom": 5,
+      "maxNativeZoom": 11,
+      "maxZoom": 19,
+      "tileSize": 256,
+      "bounds": [
+        51.4,
+        22.5,
+        56.61,
+        26.2
+      ],
+      "outputGroundResolutionM": [
+        68.58,
+        70.62
+      ],
+      "offline": true,
+      "format": "jpg",
+      "tileScheme": "xyz",
+      "missingDataColor": "#27454f",
+      "url": "/trv-preview/thra/maps/uae-offline/terrain/{z}/{x}/{y}.jpg",
+      "name": {
+        "en": "Offline shaded terrain",
+        "ar": "تضاريس مظللة محلية"
+      },
+      "description": {
+        "en": "Real SRTM terrain sampled at about 140 m, shaded with 3× visual relief exaggeration. Historical terrain with coarser fallback data; not dune passability or nautical navigation data.",
+        "ar": "ارتفاعات SRTM حقيقية معروضة بدقة تقارب 140 متراً وتظليل مبالغ 3 مرات للتوضيح. تضاريس تاريخية مع بيانات بديلة أقل دقة؛ ليست بيانات صلاحية عبور الكثبان أو ملاحة بحرية."
+      },
+      "sourcePixelM": 30,
+      "sampledPixelMApprox": [
+        137,
+        142
+      ],
+      "sourceAcquisitionYears": [
+        2000,
+        2000
+      ],
+      "sourceAcquisitionYearsAppliesTo": "SRTM land acquisition only; other fallback source acquisition dates vary.",
+      "fallbackPublicationYears": {
+        "GMTED2010": 2010,
+        "ETOPO1": 2009
+      },
+      "datasetRelease": "Mapzen terrain tiles 1.1, 2017; individual Last-Modified recorded",
+      "sourceResolutionLimits": {
+        "en": "SRTM land source nominal 30 m (90 m nominal quality); GMTED fallback 250–1000 m; ETOPO1 ocean bathymetry about 2.5 km. Output interpolation does not add source detail.",
+        "ar": "دقة مصدر SRTM البري الاسمية 30 متراً (جودة اسمية 90 متراً)؛ بيانات GMTED البديلة 250–1000 متر، وأعماق المحيط ETOPO1 نحو 2.5 كم. تكبير العرض لا يزيد تفاصيل المصدر."
+      },
+      "sourceTileCount": 56,
+      "reliefExaggeration": 3,
+      "attribution": "Terrain: Mapzen; SRTM and GMTED2010 courtesy of the U.S. Geological Survey; ETOPO1: DOC/NOAA/NESDIS/NCEI. U.S. Government material is not subject to copyright protection within the United States. Modified by TRV: resampled, colored and shaded.",
+      "attributionAr": "Terrain: Mapzen; SRTM and GMTED2010 courtesy of the U.S. Geological Survey; ETOPO1: DOC/NOAA/NESDIS/NCEI. U.S. Government material is not subject to copyright protection within the United States. Modified by TRV: resampled, colored and shaded.",
+      "sourceUrl": "https://registry.opendata.aws/terrain-tiles/",
+      "licenseUrl": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "bytes": 4108130,
+      "tileCount": 1038
+    }
+  },
+  "coverage": {
+    "countryMask": {
+      "path": "/trv-preview/thra/maps/uae-offline/routing-boundary.geojson",
+      "sha256": "32672451346db0ff9314b3259aeba29954bb674b99eea018b386283b56796a40",
+      "bounds": [
+        51.4160714,
+        22.6316214,
+        56.6024458,
+        26.1517219
+      ],
+      "relationId": 307763,
+      "landCoastlineVerified": false,
+      "warning": "OSM administrative polygon is not a verified land-only coastline mask; maritime territory may be included."
+    },
+    "satellite": {
+      "gridPixels": 48758784,
+      "coveredPixels": 48378439,
+      "gridCoveragePercent": 99.219946,
+      "adminMaskPixels": 21734722,
+      "adminCoveredPixels": 21733508,
+      "adminCoveragePercent": 99.994414
+    },
+    "terrain": {
+      "gridPixels": 48758784,
+      "coveredPixels": 48758784,
+      "gridCoveragePercent": 100.0,
+      "adminMaskPixels": 21734722,
+      "adminCoveredPixels": 21734722,
+      "adminCoveragePercent": 100.0
+    }
+  },
+  "totalTileBytes": 9658592,
+  "tileHashesEvidence": "imagery-tile-hashes.json",
+  "limitations": {
+    "en": "Overview maps are finite and static. Route legality and desert safety are separate; no safe dune routes are inferred from imagery.",
+    "ar": "الخرائط المحلية ثابتة ومحدودة التغطية والدقة. قانونية المسار وسلامة الصحراء منفصلتان؛ لا تُستنتج مسارات آمنة للكثبان من الصور."
+  }
+}

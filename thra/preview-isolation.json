@@ -1,0 +1,23 @@
+{
+  "demo": true,
+  "base": "/trv-preview/thra/",
+  "productionTransportModules": [],
+  "resolvedMocks": [
+    "gateway",
+    "native-owner",
+    "remote",
+    "store"
+  ],
+  "mockModules": [
+    "scripts/thra-preview-gateway.ts",
+    "scripts/thra-preview-remote.ts",
+    "scripts/thra-preview-store.ts"
+  ],
+  "nativeEdition": false,
+  "credentialsRead": false,
+  "commands": "local synthetic state only",
+  "offlineRouteCalculation": "unavailable in UI-only preview",
+  "omittedPublicAssets": [
+    "maps/uae-offline/routing-graph.bin"
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#514f68"/><stop offset=".6" stop-color="#817b88"/><stop offset="1" stop-color="#b3a39a"/></linearGradient><linearGradient id="earth" x2="0" y2="1"><stop stop-color="#5d5866"/><stop offset="1" stop-color="#282735"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+  <ellipse cx="1170" cy="305" rx="330" ry="190" fill="#b8a0a0" opacity=".12"/>
+  <path d="m0 518 181-146 182 91 142-208 91 107 124-108 259 258 159-152 265 136 197-41v545H0Z" fill="#625e75" opacity=".45"/>
+  <path d="m0 655 154-170 149 79 147-111 152 162 176-110 157 134 207-121 152 104 186-89 120 67v400H0Z" fill="#555469" opacity=".7"/>
+  <path d="M0 799q153-177 366-117t374 19 356-43 504 51v291H0Z" fill="url(#earth)"/>
+  <path d="M0 925q248-101 511-27t452-3 637 8v97H0Z" fill="#272631" opacity=".55"/>
+</svg>
