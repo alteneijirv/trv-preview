@@ -1,1 +1,0 @@
-import{a as e,j as a}from"./thra-preview-DWIeFOSx.js";function s({kind:t,children:r}){const{lang:o}=e();return a.jsx("div",{className:`octa-shell thra-octa-section thra-octa-${t}`,dir:"ltr","data-octa-section":t,"data-energy-flow-direction":t==="energy"?"ltr":void 0,children:a.jsx("div",{className:"thra-octa-section-content",dir:o==="ar"?"rtl":"ltr",children:r})})}export{s as T};

@@ -1,1 +1,0 @@
-import{j as a}from"./thra-preview-DWIeFOSx.js";/* empty css               */function s({children:t}){return a.jsx("div",{className:"octa-detail","data-page":"detail",children:a.jsx("div",{className:"octa-detail-body",children:t})})}export{s as default};
