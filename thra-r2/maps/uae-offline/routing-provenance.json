@@ -1,0 +1,58 @@
+{
+  "datasetId": "uae-osm-2026-10-23-trvg1",
+  "source": {
+    "file": "gcc-states-261023.osm.pbf",
+    "url": "https://download.geofabrik.de/asia/gcc-states-261023.osm.pbf",
+    "sha256": "7624e9e360053e1dff0c39efd3e984c3b188404d86a6500f0d8ffa963685be47",
+    "bytes": 256095041,
+    "countryRelation": 307763
+  },
+  "dataLicense": "ODbL-1.0",
+  "builderLicense": "MIT",
+  "generatedGraphIndependentOfOrganicMaps": true,
+  "files": {
+    "routing-LICENSE-ODbL-1.0.txt": {
+      "bytes": 25278,
+      "sha256": "607680718977f6f6c9607972afd98f208573f19251315ed1362a8589b51beaf5"
+    },
+    "routing-NOTICE.txt": {
+      "bytes": 2154,
+      "sha256": "ab524d74e3cc063dd3cd1530abdd81fcd6b147eeae5dc3a2b9084e420423fa76"
+    },
+    "routing-boundary.geojson": {
+      "bytes": 57209,
+      "sha256": "32672451346db0ff9314b3259aeba29954bb674b99eea018b386283b56796a40"
+    },
+    "routing-build-requirements.txt": {
+      "bytes": 29,
+      "sha256": "7900a42321bca69c05b21570ae96f6286907def64b74c9c69147329b3c6cc669"
+    },
+    "routing-builder.py": {
+      "bytes": 20315,
+      "sha256": "d7d24806326b5aa73479d28e6ba269253b74065ce7ab93410133fdbac379d1bc"
+    },
+    "routing-graph.bin": {
+      "bytes": 81180488,
+      "sha256": "f167342661cb15a8bf1e7da502de723231ebb49521aca762c13dbf2648c0a33e"
+    },
+    "routing-manifest.json": {
+      "bytes": 4382,
+      "sha256": "f7817711184277e454d2306e9b26bbd609bb5070378a901b14357dc4ea0cae1b"
+    },
+    "routing-public-fixtures.json": {
+      "bytes": 6244,
+      "sha256": "1c719e1dbbba253ecf9e920a208f277178749d47c0f9555d518488f365316cc0"
+    }
+  },
+  "runCommand": "python routing-builder.py --source gcc-states-261023.osm.pbf --out OUTPUT --evidence EVIDENCE",
+  "requirementsFile": "routing-build-requirements.txt",
+  "sourceDate": "2026-10-23T20:20:51Z",
+  "counts": {
+    "nodes": 589640,
+    "edges": 1278217,
+    "points": 6377100,
+    "restrictions": 10003
+  },
+  "frozen": true,
+  "safety": "Mapped network only. No invented offroad connectors; surface/access uncertainty is not terrain passability. Unsupported turn/conditional/dimension cases conservatively excluded."
+}
