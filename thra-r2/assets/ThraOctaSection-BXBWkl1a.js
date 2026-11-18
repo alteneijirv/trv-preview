@@ -1,1 +1,0 @@
-import{a as c,j as a}from"./thra-preview-l9oM_OOu.js";function e({kind:t,children:r}){const{lang:s}=c();return a.jsx("div",{className:`octa-shell thra-octa-section thra-octa-${t}`,dir:"ltr","data-octa-section":t,children:a.jsx("div",{className:"thra-octa-section-content",dir:s==="ar"?"rtl":"ltr",children:r})})}export{e as T};
