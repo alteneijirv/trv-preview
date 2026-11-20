@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "version": "3.5.54",
-  "versionCode": 70,
+  "version": "3.5.55",
+  "versionCode": 71,
   "packageName": "ae.trv.command",
-  "url": "https://github.com/alteneijirv/trv-preview/releases/download/v3.5.54-code70/TRV-3.5.54-code70-THRA.apk",
-  "bytes": 232246849,
-  "sha256": "2318d1193c7ef89cce7eac89666f3ef359a40e10fae1144aa61a31030e35f56a"
+  "url": "https://github.com/alteneijirv/trv-preview/releases/download/v3.5.55-code71/TRV-3.5.55-code71-THRA.apk",
+  "bytes": 232262985,
+  "sha256": "7d3d410f60f2c26fa9d35f3e2428212ede165237407eac34afbb97294ffa2e9b"
 }
